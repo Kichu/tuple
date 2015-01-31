@@ -1,7 +1,8 @@
 #ifndef _new_tuple_cat_hpp_
 #define _new_tuple_cat_hpp_
 
-#include "int_list"
+#include "int_list.hpp"
+#include <tuple>
 
 template<typename ...T>
 struct total_tuple_size {

@@ -1,4 +1,6 @@
 #include "new_tuple_cat.hpp"
+#include <iostream>
+#include <typeinfo>
 
 int main() {
    auto t1 = std::make_tuple(10, 'a');
